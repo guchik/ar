@@ -60,22 +60,22 @@
               "font-family": "'Open Sans Condensed', sans-serif"
             },
             ".link": {
-              "font-size": "1.4rem"
+              "font-size": "1.2rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.516rem"
+              "font-size": "1.300rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#ed5453"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#f17473!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#f28281"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -103,8 +103,8 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#282828",
-            "fontSize": "1.4",
+            "bgColor": "#f28281",
+            "fontSize": "1.2",
             "fontName": {
               "name": "Open Sans Condensed",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
@@ -141,7 +141,8 @@
           "_styles": {
             ".mbr-section-title": {
               "color": "#28262b",
-              "text-align": "right"
+              "text-align": "right",
+              "font-size": "36px"
             },
             ".mbr-section-text": {
               "color": "#000000",
@@ -152,6 +153,9 @@
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700",
               "font-size": "17px"
+            },
+            ".mbr-section-title DIV": {
+              "color": "#000000"
             }
           },
           "_params": {
@@ -161,11 +165,11 @@
             "inverse": true,
             "showArrow": true,
             "imageSize": "68",
-            "bgImageRadio": true,
+            "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/fond-ar-981x447.png",
             "parallax": false,
-            "bgColorRadio": false,
-            "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/embed/F3WSFjYLvf4?rel=0&amp;showinfo=0&autoplay=0&loop=0",
@@ -197,7 +201,7 @@
           },
           "title": "Iספרים רבותיי ספרים!\n<div>לקרוא ספר</div>",
           "text": "&nbsp;בטכנולוגיה חדשה<br>&nbsp;2018 כאן !\n<br>מבצע מיוחד לעובדי נס",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://bit.ly/2FUrEra\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">להזמנה לחצו\n<br>על הספרים</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-danger-outline btn-danger\" href=\"http://bit.ly/2FUrEra\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; להזמנה לחצו\nעל הספרים</a> ",
           "_tags": [
             "Thème"
           ],
@@ -240,8 +244,8 @@
             "showButtons": true,
             "inverse": true,
             "imageSize": 50,
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -279,7 +283,7 @@
           },
           "title": "<span style=\"font-weight: normal;\">חיים חדשים לספר בטכנולוגית 3D ייחודית! 3 ספרים לבחירה במחיר מוזל עם\n</span><div><span style=\"font-weight: normal;\">חוברת צביעה צביעה במתנה.</span></div>",
           "text": "ספר חיות הג'ונגל ו/או ספר חיות החווה ו/או ספר חיות היום + חוברת צביעה\n<br>לכל ספר + אפליקציה",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://bit.ly/2FUrEra\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">להזמנה</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"http://bit.ly/2FUrEra\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; &nbsp;להזמנה</a>",
           "_tags": [
             "Thème"
           ],
@@ -313,7 +317,7 @@
               "color": "#fff"
             },
             ".btn": {
-              "font-size": "30px",
+              "font-size": "20px",
               "font-family": "'Open Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
@@ -339,7 +343,7 @@
           },
           "title": "ARTICLE HEADER",
           "text": "<p>Article header with background image and parallax effect.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"http://bit.ly/2FUrEra\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">להזמנה</a>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"http://bit.ly/2FUrEra\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; להזמנה</a>",
           "_tags": [
             "Thème"
           ],
@@ -353,8 +357,8 @@
             "showButtons": true,
             "inverse": false,
             "imageSize": "60",
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
@@ -392,7 +396,7 @@
           },
           "title": "אפלקצייה ייחודית לכל ספר בטכנולוגית מציאות רבודה<br>",
           "text": "AUGMENTED REALITY",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"http://bit.ly/2FUrEra\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">להזמנה</a>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-danger\" href=\"http://bit.ly/2FUrEra\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\"><span class=\"mbri-touch mbr-iconfont mbr-iconfont-btn\"></span>&nbsp; להזמנה</a>",
           "_tags": [
             "Thème"
           ],
@@ -408,10 +412,10 @@
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-771x1080.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#2e2e2e",
             "overlay": true,
             "overlayColor": "#3C3C3C",
@@ -452,8 +456,8 @@
             }
           },
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "0",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-771x1080.jpg",
             "parallax": true,
