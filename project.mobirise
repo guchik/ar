@@ -1,17 +1,17 @@
 {
   "settings": {
-    "name": "Site-05-09_1212",
+    "name": "INTERACTIVEAR",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise3",
       "styling": {
-        "primaryColor": "#c0a375",
+        "primaryColor": "#d14841",
         "secondaryColor": "#bfcecb",
-        "successColor": "#90a878",
+        "successColor": "#3d8eb9",
         "infoColor": "#7e9b9f",
         "warningColor": "#f3c649",
-        "dangerColor": "#f28281",
+        "dangerColor": "#475577",
         "titleFont": "Open Sans",
         "subtitleFont": "Open Sans",
         "textFont": "Open Sans",
@@ -26,8 +26,15 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.7.2",
-    "uniqCompNum": 10,
-    "versionPublish": "4.7.2"
+    "uniqCompNum": 12,
+    "versionPublish": "4.7.2",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
+    "gdpr": "By continiung you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>.",
+    "siteUrl": "undefined",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -46,16 +53,19 @@
               "display": "none !important"
             },
             ".navbar-caption": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "font-size": "15px",
+              "font-family": "'Open Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#475577"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#475577"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#475577",
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
               "font-family": "'Open Sans Condensed', sans-serif"
             },
@@ -69,16 +79,16 @@
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#ed5453"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#f17473!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#f28281"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#475577",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -103,24 +113,24 @@
             "sticky": true,
             "collapsed": true,
             "transparent": true,
-            "bgColor": "#f28281",
+            "bgColor": "#ffffff",
             "fontSize": "1.2",
             "fontName": {
               "name": "Open Sans Condensed",
               "url": "https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700",
               "css": "'Open Sans Condensed', sans-serif"
             },
-            "fontColor": "#ffffff",
+            "fontColor": "#475577",
             "fontHoverColor": "@primaryColor"
           },
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">איך זה עובד&nbsp;<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header3-3\">צור קשר<br></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header6-1\">ראשי&nbsp;<br></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/1-about-ar-img-182x128.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-ar-128x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "",
               "title": ""
             },
             "iconFont": {
@@ -129,7 +139,7 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;INTERACTIVEAR</a>",
+          "brand": "<a class=\"navbar-caption text-danger\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">&nbsp;INTERACTIVEAR</a>",
           "_tags": [
             "Thème"
           ],
@@ -217,7 +227,8 @@
               "font-size": "30px"
             },
             ".mbr-section-title H2": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#475577"
             },
             ".mbr-section-subtitle": {
               "text-align": "center"
@@ -423,7 +434,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/1-about-ar-img-128x90.png",
+              "src": "@PROJECT_PATH@/assets/images/logo-ar-128x128.png",
               "width": 128,
               "active": true,
               "link": "",
