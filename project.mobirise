@@ -536,18 +536,18 @@
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "SUBSCRIBE FORM",
-          "subtitle": "Subscribe to our Newsletter",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">SUBSCRIBE</a>",
+          "title": "טופס הרשמה",
+          "subtitle": "הירשם לניוזלטר שלנו",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">הירשם</a>",
           "form": {
             "action": "lahaiegriselle@gmail.com",
             "alerts": {
-              "success": "Thanks for filling out form!"
+              "success": "תודה על מילוי הטופס"
             },
             "fields": {
               "email": {
                 "title": "Email",
-                "customTitle": "Enter Your Email Address..."
+                "customTitle": "הזן את כתובת האימייל שלך"
               }
             }
           },
