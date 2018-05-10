@@ -503,6 +503,9 @@ h6,
 #header6-1 .mbr-section-title DIV {
   color: #000000;
 }
+#msg-box5-e H3 {
+  color: #475577;
+}
 #header3-3 .mbr-section-title,
 #header3-3 .mbr-section-subtitle {
   text-align: center;
@@ -544,6 +547,12 @@ h6,
 }
 #msg-box5-7 H3 {
   font-size: 25px;
+}
+#form2-c .mbr-section-title {
+  color: #fff;
+}
+#form2-c .mbr-section-subtitle {
+  color: #a0a0a0;
 }
 #social-buttons3-4 .mbr-section-title,
 #social-buttons3-4 .btn-social {
